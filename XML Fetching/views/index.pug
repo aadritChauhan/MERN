@@ -1,0 +1,15 @@
+extends layout
+
+block main-content
+
+  h1 Libraries  
+  div 
+    each info in librarys  
+      - let branchName = info.querySelector("name").textContent;
+      - let branchAdd = info.querySelector("address").textContent;
+      - let phoneNo = info.querySelector("phoneNumber").textContent;
+      - let des = info.querySelector("description").textContent;
+      h2 #{branchName}
+      p  #{branchAdd}
+      p  #{phoneNo}
+      p  #{des}

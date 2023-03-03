@@ -1,0 +1,12 @@
+extends layout
+
+block main-content
+  - let locName = library.querySelector("name").textContent;
+  - let addr = library.querySelector("address").textContent;
+  - let pnum = library.querySelector("phoneNumber").textContent;
+  - let pCode = library.querySelector("description").textContent;
+
+  h1.page-title #{locName}
+  p #{addr}
+  p #{pnum}
+  p #{pCode}
