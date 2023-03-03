@@ -1,0 +1,32 @@
+block variables 
+doctype html 
+html 
+    head 
+        meta(charset="utf-8")
+        title #{title} 
+        block scripts 
+            link(rel="stylesheet", href="/styles.css") 
+    body    
+        header
+            nav
+                ul 
+                 div.flex  
+                   div 
+                    li 
+                       a(href="#") Home
+                   div 
+                    li 
+                       a(href="#")  Shop for Men 
+                   div 
+                    li 
+                       a(href="#")  Shop for Women 
+                   div 
+                    li 
+                       a(href="#")  Contact Us
+                   div 
+                    li 
+                       a(href="#")  About  
+        main#main 
+            block main-content 
+        footer#footer 
+            p &copy; Copyright HTTP5211, 2023.
