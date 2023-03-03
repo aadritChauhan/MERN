@@ -1,0 +1,24 @@
+block variables 
+doctype html 
+html 
+    head 
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+
+
+        title #{title} | Sport Shop 
+        link(rel="stylesheet", href="/style.css")
+    body 
+        header#header   
+            nav#navigation 
+              ul  
+                .flex 
+                    each link in menu 
+                        div 
+                          li 
+                            a(href=link.path) #{link.name} 
+                 
+        main#main   
+            block main-content 
+        footer#footer 
+            p &copy; Copyright Sport Shop, 2023.            

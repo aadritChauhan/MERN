@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_1st-assignment",
+  "version": "1.0.0",
+  "description": "My first nodejs assignment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "author": "aadrit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.0.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
