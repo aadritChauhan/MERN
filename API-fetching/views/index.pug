@@ -1,0 +1,26 @@
+extends layout 
+
+
+block main-content 
+  //You can overwrite the main-content block by writing block content
+  //in the template file which is extending.
+  h1.page-title Hello! 
+  p Here are some Shows: 
+    table 
+      thead 
+        tr 
+          th Show Title 
+          th Year 
+      tbody  
+      each s in show
+       - url=`https://imdb.com/title/${s.ids.imdb}`;
+        tr 
+           td    
+             a(href=url) #{s.title}
+           td #{s.year}
+       
+ 
+
+
+  
+  
