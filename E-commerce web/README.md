@@ -1,3 +1,4 @@
 # About this project
 
-### Created an e-commerce website 
+### Created a home page for an e-commerce platform
+### Used MongoDb, Express, Node JS, Pug Template
