@@ -1,0 +1,24 @@
+extends layout 
+
+
+
+block main-content 
+  .imageBgF1
+    h1.textAlign.headingF Soccer Standings 
+    h3.textAlign.contentF1 Enter the name of the league you want to know standing of 
+
+    div.formCenter
+        form(action="/Table" method="post")
+            input(type="text" name="league" id="league") 
+            button(type="submit" ) Football Standings 
+    
+    div.docButton.textAlign.headingF 
+        h3 Click here to see a list of all leagues
+        a(href="https://docs.google.com/document/d/1jX1O0w-elFlrNrP_x27vK-8pYrasIGAJjm_XjO8luJw/edit?usp=sharing")  
+        button Documentation     
+ 
+    
+  footer.footerIndex 
+         p &copy; Copyright HTTP5211, 2023.
+    
+
