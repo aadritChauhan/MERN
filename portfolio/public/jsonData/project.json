@@ -1,0 +1,10 @@
+
+[
+{"id":"1","title":"E-Commerce Webpage","content":"Home Page of an e-commerce website was created by me using MongoDb, Express JS, Node JS and Pug Template","url":"https:\/\/github.com\/aadritChauhan\/MERN\/tree\/main\/E-commerce%20web","type":"Website","photo":"/images/Mern-Stack.png"},
+
+{"id":"2","title":"E-commerce Sport Shop","content":"Created a website for E-commerce sport shop using MERN stack and also hosted it on MongoDb Atlas.","url":"https:\/\/github.com\/aadritChauhan\/MERN\/tree\/main\/E-commerce%20web","photo":"/images/Mern-Stack.png"},
+
+{"id":"3","title":"Humber Webpage","content":"Redigned Humber's webpage using figma and also implemented it using HTML/CSS.","url":"https:\/\/github.com\/aadritChauhan\/MERN\/tree\/main\/E-commerce%20web","photo":"/images/htmlcss.png"},
+
+{"id":"4","title":"Favourite Albums","content":"Made a php page using HTML/CSS that contains all my favourite albums, hosting it online using infinityFree and FileZilla.","url":"https:\/\/github.com\/aadritChauhan\/MERN\/tree\/main\/E-commerce%20web","photo":"/images/php.png"}
+]
